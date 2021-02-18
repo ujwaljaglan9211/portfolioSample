@@ -56,3 +56,104 @@ ul.navbar-nav li.nav-item a.nav-link i.fa.fa-phone {
 ul.navbar-nav.phone li.nav-item a.nav-link:hover {
   color: var(--light);
 }
+/* Home Landing screen starts here*/
+.home-landing .straight-bubble div:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px solid;
+  margin: 10px;
+  border: 1px solid var(--light);
+  opacity: 0.1;
+}
+.home-landing .straight-bubble:before {
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px solid;
+  border: 2px solid var(--red);
+  opacity: 0.1;
+  top: 0;
+  transform: translate(100%, 50%);
+  left: 0;
+}
+.home-landing .double-bubble div.one:before {
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px solid;
+  border: 3px solid var(--red);
+  opacity: 0.5;
+}
+.home-landing .double-bubble div.two:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px solid;
+  margin: 30px 0px;
+  border: 3px solid var(--light);
+  opacity: 0.5;
+}
+.home-landing span.hello{
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  color: var(--light);
+  font-size: 20px;
+}
+span.hello.font-weight-bold:before {
+  color: var(--red);
+  content: "";
+  display: inline-block;
+  border: 1px solid var(--red);
+  width: 30px;
+  margin: 5px auto;
+  margin-right: 5px;
+}
+.home-landing h1.title{
+  font-size: 50px;
+  color: var(--white);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.home-landing .designation{
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--light);
+  text-transform: uppercase;
+}
+.button{
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.button:hover{
+  color: var(--white);
+  text-decoration: none;
+  background: var(--red);
+  transition: ease-in-out 0.5s;
+}
+.home-landing .landing-cta .download-cv{
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.home-landing .landing-image figure img{
+  border-radius: 50px 0px 0px 0px;
+  border: 10px solid var(--light);
+}
